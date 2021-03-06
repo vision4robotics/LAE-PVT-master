@@ -162,5 +162,5 @@ More latency-aware tracking sequences can be found at [Video](https://youtu.be/n
 
 # Acknowledgements
 
-We thank the contribute of Qiang Wang and Martin Danelljan for their brilliant tracking libraries  [Pysot](https://github.com/STVIR/pysot) and [Pytracking](https://github.com/visionml/pytracking) sincerely.
-
+We thank the contribute of Qiang Wang _et al._ and Martin Danelljan _et al_ for their brilliant tracking libraries  [Pysot](https://github.com/STVIR/pysot) and [Pytracking](https://github.com/visionml/pytracking) sincerely.
+We would also like to extend our gratitude to Martin Li _et al._, who firstly proposed [latency issue](https://www.cs.cmu.edu/~mengtial/proj/streaming/) in perception tasks and inspired us.
