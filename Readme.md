@@ -156,7 +156,7 @@ Performance of the state-of-the-art trackers with offline latency-free and onlin
 
 ![](.\fig\visulization.png)
 
-More latency-aware tracking sequences can be found at [https://youtu.be/n8i8bREIFeM](display video).
+More latency-aware tracking sequences can be found at [Video](https://youtu.be/n8i8bREIFeM).
 
 
 
