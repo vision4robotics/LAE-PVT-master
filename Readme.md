@@ -18,7 +18,7 @@ As a crucial robotic perception capability, visual tracking has been intensively
 
 
 
-![image](https://github.com/vision4robotics/LAE-PVT-master/blob/master/fig/exhib.png)
+![image](https://github.com/vision4robotics/LAE-PVT-master/blob/master/fig/exhibition.png)
 
 Here offers a vivid explanation of real-world tracking with latency. When the tracker finishes processing the input frame, the world state has already changed.
 
