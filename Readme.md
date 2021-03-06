@@ -18,7 +18,7 @@ As a crucial robotic perception capability, visual tracking has been intensively
 
 
 
-![](.\fig\exhibition.png)
+![image](https://github.com/vision4robotics/LAE-PVT-master/blob/master/fig/exhib.png)
 
 Here offers a vivid explanation of real-world tracking with latency. When the tracker finishes processing the input frame, the world state has already changed.
 
@@ -140,13 +140,13 @@ In this way, the post-forecaster is implemented off-line. However, the forecaste
 
 ## Overall Results Comparison
 
-![](.\fig\overall.png)
+![image](https://github.com/vision4robotics/LAE-PVT-master/blob/master/fig/overall.png)
 
 Performance of state-of-the-art trackers on the proposed LAE benchmark. The curves in solid colors report the performance of the 8 benchmarked trackers on LAE, whereas the dotted curves overlaid in semi-transparent colors outline the performance obtained by the same trackers on the traditional offline benchmark. In brackets, we report the distance precision (DP) and area under curve (AUC) on LAE (in black) and on offline benchmark (in gray). Clearly, many offline promising trackers fail to maintain their robustness and accuracy in LAE benchmark.
 
 ## Effect of PVT baseline
 
-![](.\fig\PVT.png)
+![image](https://github.com/vision4robotics/LAE-PVT-master/blob/master/fig/PVT.png)
 
 Performance of the state-of-the-art trackers with offline latency-free and online latency-aware benchmarks on DTB70. The distance precision (DP) is employed for evaluation. The same shape indicates the same tracker, *e.g.*, star for SiamRPN++ with ResNet50 as backbone. Blue denotes the results on the offline benchmark. Red means the results on the latency-aware benchmark. Our predictive tracking baseline is marked out by red circles, where the original performance is improved by a considerable margin, denoted by green arrows and percentages.
 
@@ -154,7 +154,7 @@ Performance of the state-of-the-art trackers with offline latency-free and onlin
 
 ## Qualitative Evaluation
 
-![](.\fig\visulization.png)
+![image](https://github.com/vision4robotics/LAE-PVT-master/blob/master/fig/visulization.png)
 
 More latency-aware tracking sequences can be found at [Video](https://youtu.be/n8i8bREIFeM).
 
