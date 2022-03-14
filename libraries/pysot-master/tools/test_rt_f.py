@@ -88,6 +88,7 @@ def main():
             if video.name != args.video:
                 continue
         toc = 0
+        video.load_img()
         pred_bboxes = []
         scores = []
         track_times = []
@@ -160,7 +161,7 @@ def main():
         #     for x in pred_bboxes:
         #         f.write(','.join([str(i) for i in x])+'\n')
         print('({:3d}) Video: {:12s} Time: {:5.1f}s Speed: {:3.1f}fps'.format(
-            v_idx+1, video.name, toc, fidx / toc))
+            v_idx+1, video.name, toc, len(runtime) / sum(runtime)))
 
 
 if __name__ == '__main__':
